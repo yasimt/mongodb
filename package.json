@@ -1,0 +1,26 @@
+{
+  "name": "mongo_node",
+  "version": "1.0.0",
+  "description": "APIs connecting mongo server",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "dev": "NODE_ENV=development nodemon --use_strict server.js"
+  },
+  "author": "Imteyaz Raja",
+  "license": "ISC",
+  "dependencies": {
+    "error-stack-parser": "^2.0.2",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "mongodb": "^3.1.1",
+    "morgan": "^1.9.0",
+    "read-last-lines": "^1.6.0",
+    "validator": "^10.5.0",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
